@@ -58,7 +58,7 @@ a {
     left: 10vw;
     top: 10vh;
     padding: 5vh 5vh;
-    background: -webkit-linear-gradient(55deg, #009785 0%, #245AA5 50%, #B800E9 90%);
+    background: black;
     background-attachment: fixed;
     border: 1px solid #009785;
     border-radius: 6px;
