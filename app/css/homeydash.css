@@ -53,20 +53,20 @@ a {
 
   #info-panel {
     position: absolute;
-    width: 80vw;
-    height: 60vh;
+    width: 60vw;
+    height: 40vh;
     left: 10vw;
     top: 10vh;
     padding: 5vh 5vh;
     background: black;
     background-attachment: fixed;
-    border: 1px solid #009785;
+    border: 1px solid darkgrey;
     border-radius: 6px;
     box-sizing: border-box;
     z-index: 99;
     visibility: hidden;
     overflow: auto;
-    opacity: 0.95;
+    opacity: 0.8;
   }
     .info-message {
       font-size: 24px;
@@ -81,7 +81,7 @@ a {
     top: 10vh;
     padding: 3vh 2vw;
     background: white;
-    border: 1px solid #009785;
+    border: 1px solid darkgrey;
     border-radius: 6px;
     box-sizing: border-box;
     z-index: 99;
