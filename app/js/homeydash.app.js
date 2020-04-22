@@ -1317,7 +1317,7 @@ window.addEventListener('load', function() {
     } else {
       $textLarge.innerHTML = texts.text.good + tod + '!';
     }
-    $textSmall.innerHTML = texts.text.today + moment(now).format('dddd[, ' + texts.text.the + ' ]Do[ ' + texts.text.of + ' ]MMMM YYYY[.]');
+    $textSmall.innerHTML = texts.text.today + moment(now).format('dddd[ ' + texts.text.the + ' ]Do[ ' + texts.text.of + ' ]MMMM YYYY[.]');
   }
 
   function renderValue ($value, capabilityId, capabilityValue, capabilityUnits) {
